@@ -1,7 +1,5 @@
 <template>
   <Layout>
-    <h1>{{ $page.post.title }}</h1>
-    <p>{{ $page.post.date }}</p>
     <div v-html="$page.post.content"></div>
   </Layout>
 </template>

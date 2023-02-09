@@ -2,7 +2,6 @@
   <Layout>
     <section class="py-5">
       <div class="container">
-
         <div class="row align-items-end">
           <div class="col-md text-left text-md-center">
             <h2 class="mb-0">Latest</h2>
@@ -32,6 +31,22 @@
             description="I promise these tasks will save your business from ever failing. And help add more revenue to your bottom line."
           />
         </div>
+        <hr />
+        <div class="row">
+          <div class="text-md-center">
+            <h2 class="mb-0">Blog Posts</h2>
+          </div>
+        </div>
+        <div class="row">
+          <PostCard
+            v-for="post in $page.allPost.edges"
+            :title="post.node.title"
+            :image="post.node.feature"
+            :description="post.node.preview"
+            :link="post.node.path"
+          >
+          </PostCard>
+        </div>
       </div>
     </section>
   </Layout>
@@ -47,6 +62,8 @@ query {
         title
         date
         content
+        preview
+        feature
       }
     }
   }

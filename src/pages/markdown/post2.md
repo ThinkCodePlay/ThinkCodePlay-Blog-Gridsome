@@ -1,10 +1,11 @@
 ---
 path: '/post2'
 date: '2023-19-01'
-title: 'Post 1'
+title: 'Post 2'
+preview: 'This is the second post preview.'
 ---
 
-# Post 1
+# Post 2
 
 This is the first post.
 

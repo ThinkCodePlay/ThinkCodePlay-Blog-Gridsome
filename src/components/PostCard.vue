@@ -1,14 +1,16 @@
 <template>
   <div class="col-md-4 post-card">
-    <a
-      :href="link"
+    
+    <g-link
       :title="title"
+      :to="link"
       class="black font-weight-normal no-underline"
     >
-      <img :src="image" :alt="title" class="img-fluid rounded border mb-3" />
+      {{ image }}
+      <g-image :src="image" :alt="title" class="img-fluid rounded border mb-3" />
       <h4>{{ title }}</h4>
       <p class="small">{{ description }}</p>
-    </a>
+    </g-link>
   </div>
 </template>
 
