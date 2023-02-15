@@ -1,3 +1,8 @@
+.g-image {
+  display: block;
+    margin: 0 auto;
+}
+
 :root {
     --futura: Futura, Trebuchet MS, Arial Black, Arial Bold, Arial, sans-serif;
     --helvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",

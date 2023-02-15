@@ -1,6 +1,10 @@
 <template>
   <Layout>
-    <div v-html="$page.post.content"></div>
+    <section class="py-5">
+      <div class="container">
+        <div v-html="$page.post.content"></div>
+      </div>
+    </section>
   </Layout>
 </template>
 
@@ -19,12 +23,8 @@ export default {
   name: "Post",
   metaInfo() {
     return {
-      title: this.$page.post.title
+      title: this.$page.post.title,
     };
-  }
-}
+  },
+};
 </script>
-
-<style scoped>
-
-</style>
