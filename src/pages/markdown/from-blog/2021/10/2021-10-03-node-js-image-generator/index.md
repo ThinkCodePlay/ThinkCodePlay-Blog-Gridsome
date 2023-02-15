@@ -12,7 +12,7 @@ In this tutorial I will show you how I created a Node JS Image Generator.
 
 I recently stumbled upon an old eBook reader from Barnes and Noble called “[Nook](https://en.m.wikipedia.org/wiki/Barnes_%26_Noble_Nook)” that has been laying around for years and I thought about the default image. (later I realized that they have other better looking ones).
 
-![nook screensaver image](images/authors-729x1024.jpg)
+![nook screensaver image](../../../../../../../static/from-blog/2021/10/2021-10-03-node-js-image-generator/images/authors-729x1024.jpg)
 
 But as much as they say “you can’t judge a book by its cover”, the cover does have to make you at least a little inspired to make you read the book.
 
@@ -73,13 +73,13 @@ Now to combine everything together, I first get the quotes from the JSON file, t
 
 Here are some examples that were made:
 
-[![](images/image23-150x150.jpg)](https://thinkcodeplay.com/wp-content/uploads/2021/10/image23.jpg)
+[![](../../../../../../../static/from-blog/2021/10/2021-10-03-node-js-image-generator/images/image23-150x150.jpg)](https://thinkcodeplay.com/wp-content/uploads/2021/10/image23.jpg)
 
-[![](images/image24-150x150.jpg)](https://thinkcodeplay.com/wp-content/uploads/2021/10/image24.jpg)
+[![](../../../../../../../static/from-blog/2021/10/2021-10-03-node-js-image-generator/images/image24-150x150.jpg)](https://thinkcodeplay.com/wp-content/uploads/2021/10/image24.jpg)
 
-[![](images/image40-150x150.jpg)](https://thinkcodeplay.com/wp-content/uploads/2021/10/image40.jpg)
+[![](../../../../../../../static/from-blog/2021/10/2021-10-03-node-js-image-generator/images/image40-150x150.jpg)](https://thinkcodeplay.com/wp-content/uploads/2021/10/image40.jpg)
 
-[![](images/image42-150x150.jpg)](https://thinkcodeplay.com/wp-content/uploads/2021/10/image42.jpg)
+[![](../../../../../../../static/from-blog/2021/10/2021-10-03-node-js-image-generator/images/image42-150x150.jpg)](https://thinkcodeplay.com/wp-content/uploads/2021/10/image42.jpg)
 
 Here is the final code.
 

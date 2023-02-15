@@ -59,7 +59,7 @@ Example:
 
 Outputs:
 
-![](images/image.png)
+![](../../../../../../../static/from-blog/2021/10/2021-10-17-css-specificity/images/image.png)
 
 In terms of specificity Inline style is the most direct and specific way of targeting and changing the style of an element.
 
@@ -83,7 +83,7 @@ In HTML the assignment would look like this:
 }
 ```
 
-![](images/image-1.png)
+![](../../../../../../../static/from-blog/2021/10/2021-10-17-css-specificity/images/image-1.png)
 
 ## Class Selector
 
@@ -102,7 +102,7 @@ Classes can be reused on multiple elements who have the class.
 }
 ```
 
-![](images/image-2.png)
+![](../../../../../../../static/from-blog/2021/10/2021-10-17-css-specificity/images/image-2.png)
 
 You can also add several classes on the same element
 
@@ -115,7 +115,7 @@ You can also add several classes on the same element
 .italic{ font-style: italic; }
 ```
 
-![](images/image-3.png)
+![](../../../../../../../static/from-blog/2021/10/2021-10-17-css-specificity/images/image-3.png)
 
 ## Element Selector
 
@@ -131,7 +131,7 @@ For example to target all paragraphs
 p { color: green }
 ```
 
-![](images/image-4.png)
+![](../../../../../../../static/from-blog/2021/10/2021-10-17-css-specificity/images/image-4.png)
 
 ## Universal Selector
 
@@ -145,7 +145,7 @@ The universal selector is considered to be the least specific selector and there
 * { color: purple }
 ```
 
-![](images/image-5.png)
+![](../../../../../../../static/from-blog/2021/10/2021-10-17-css-specificity/images/image-5.png)
 
 ## Notation
 

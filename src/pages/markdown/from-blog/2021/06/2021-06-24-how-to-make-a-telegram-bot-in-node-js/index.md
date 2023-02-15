@@ -23,11 +23,11 @@ Topics:
 
 In order to begin we first need to create a new bot in Telegram. To do this search BotFather in telegrams search panel and start a chat with him.
 
-![](images/image.png)
+![](../../../../../../../static/from-blog/2021/06/2021-06-24-how-to-make-a-telegram-bot-in-node-js/images/image.png)
 
 To create a new bot send "/newbot". Next enter a username. Finally you will receive an access token. (Keep this secret)
 
-![](images/image-1.png)
+![](../../../../../../../static/from-blog/2021/06/2021-06-24-how-to-make-a-telegram-bot-in-node-js/images/image-1.png)
 
 ## Node.js telegram server
 
@@ -102,7 +102,7 @@ npm run dev
 
 Test the app by searching the app username and starting a chat with it.
 
-![](images/image-3.png)
+![](../../../../../../../static/from-blog/2021/06/2021-06-24-how-to-make-a-telegram-bot-in-node-js/images/image-3.png)
 
 ## Fetching deals for games
 
@@ -160,7 +160,7 @@ bot.onText(/\/game (.+)/, (msg, match) => {
 
 Test out the app and you get:
 
-![](images/image-4.png)
+![](../../../../../../../static/from-blog/2021/06/2021-06-24-how-to-make-a-telegram-bot-in-node-js/images/image-4.png)
 
 all we have to do now is use the cheapshark function from the bot to recieve our data:
 
@@ -176,7 +176,7 @@ bot.onText(/\/game (.+)/, async (msg, match) => {
 
 And that's it! We get the first deal under the name sent by the user with name price and link to deal.
 
-![](images/image-5.png)
+![](../../../../../../../static/from-blog/2021/06/2021-06-24-how-to-make-a-telegram-bot-in-node-js/images/image-5.png)
 
 ## Conclusion
 
