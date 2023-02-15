@@ -90,18 +90,6 @@ export default [
     component: c2
   },
   {
-    path: "/post1/",
-    component: c1
-  },
-  {
-    path: "/post2/",
-    component: c1
-  },
-  {
-    path: "/gridsome-markdown-blog/",
-    component: c1
-  },
-  {
     path: "/about/",
     component: c3
   },

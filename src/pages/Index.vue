@@ -39,10 +39,11 @@
         </div>
         <div class="row">
           <PostCard
-            v-for="post in $page.allPost.edges"
+            v-for="(post, index) in $page.allPost.edges"
+            :key="index"
             :title="post.node.title"
-            :image="post.node.feature"
-            :description="post.node.preview"
+            :image="'https://thinkcodeplay.com/wp-content/uploads/2022/02/5-1024x536.png'"
+            :description="post.node.content"
             :link="post.node.path"
           >
           </PostCard>
@@ -62,8 +63,6 @@ query {
         title
         date
         content
-        preview
-        feature
       }
     }
   }

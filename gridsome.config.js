@@ -12,6 +12,7 @@ module.exports = {
       options: {
         path: 'src/pages/markdown/**/*.md',
         typeName: 'Post',
+        resolveAbsolutePaths: true,
         remark: {
           // remark options
         }
