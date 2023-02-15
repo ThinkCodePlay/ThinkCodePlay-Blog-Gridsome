@@ -20,13 +20,13 @@ A loop basically says that instead of going all the way to the bottom we can tel
 
 Here are two basic types of loop block we can use
 
-![](images/image-20.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-26-scratch-tutorial-for-complete-beginners-part3/images/image-20.png)
 
 A repeat block and a forever block. Let's try them out by changing the x or y of out character.
 
 Try out this example:
 
-![](images/image-22.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-26-scratch-tutorial-for-complete-beginners-part3/images/image-22.png)
 
 Click on the repeat block to run it. As you can see if the character start at point (X:0,Y:0) it will now move to (X:100,Y:-100).
 
@@ -38,7 +38,7 @@ So when we use a loop block, we are saying to all the inner code blocks to run a
 
 Now try doing the same with the other loop.
 
-![](images/image-23.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-26-scratch-tutorial-for-complete-beginners-part3/images/image-23.png)
 
 Now the character will move all the way to the right side of the screen. You can event try to move the character somewhere else on the screen and it will still continue moving to the right.
 
@@ -46,7 +46,7 @@ This is because this loop will run forever. There is no exit condition to stop i
 
 Above the game area you will find the Go and Stop buttons. Press the stop button to stop the loop.
 
-![](images/image-24.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-26-scratch-tutorial-for-complete-beginners-part3/images/image-24.png)
 
 This leads us to a concept in game development called the game loop.
 
@@ -58,7 +58,7 @@ But how does the game know what instructions to run?
 
 For this we can use the **When go clicked block**:
 
-![](images/image-25.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-26-scratch-tutorial-for-complete-beginners-part3/images/image-25.png)
 
 This will tell the character to start running the next instructions when the go button is clicked.
 
@@ -66,7 +66,7 @@ When we use this with the together with the forever loop we can be sure that eve
 
 Create the next code block:
 
-![](images/image-26.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-26-scratch-tutorial-for-complete-beginners-part3/images/image-26.png)
 
 Now we can press the go button to start the character from (X:0,Y:0) and it will move to the right border. Now even if the character moves to another place on the screen we can be sure that will start from (X:0,Y:0) the next time we run the code with the go button.
 

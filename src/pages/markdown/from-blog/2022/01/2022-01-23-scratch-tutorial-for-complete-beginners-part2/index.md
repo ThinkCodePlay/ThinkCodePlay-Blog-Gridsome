@@ -16,7 +16,7 @@ Let's first start with a little example and then we will explain what we just di
 
 Open up [a Scratch project](https://scratch.mit.edu/projects/editor) and look for the following code blocks and drag them to the coding area.
 
-![](images/image-7.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-23-scratch-tutorial-for-complete-beginners-part2/images/image-7.png)
 
 Change the text in the "Say" circle and change it to I moved 10 to the right, and I moved -20 to the left.
 
@@ -34,7 +34,7 @@ This brings us to our next topic: Variables.
 
 You may have noticed in our previous example that when we clicked the code block to run the commands, the X value in the details area changed.
 
-![](images/image-8.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-23-scratch-tutorial-for-complete-beginners-part2/images/image-8.png)
 
 gif of x moving
 
@@ -62,7 +62,7 @@ As we learned the higher value we give the X variable, the more the character wi
 
 try moving the character with your mouse in the play area and see how it effects the X and Y values in the details area.
 
-![](images/image-8.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-23-scratch-tutorial-for-complete-beginners-part2/images/image-8.png)
 
 As you can see moving to the right make the X go up, and moving to the left makes the X value go down. Moving the character up makes the Y value higher and moving down lowers the Y value.
 
@@ -72,15 +72,15 @@ Let's add a map to our play area.
 
 Under the game area you will find a Stage area. Here we can choose what background to use for our game. press the choose a backdrop button and select the magnifing glass to find a background.
 
-![](images/image-10.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-23-scratch-tutorial-for-complete-beginners-part2/images/image-10.png)
 
 Scroll until you find the xy-grid
 
-![](images/image-11.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-23-scratch-tutorial-for-complete-beginners-part2/images/image-11.png)
 
 Now you will see that our game area has the following background:
 
-![](images/image-12.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-23-scratch-tutorial-for-complete-beginners-part2/images/image-12.png)
 
 Let's explain what this background means.
 
@@ -110,13 +110,13 @@ Because the character coordinates are used often when making games, Scratch give
 
 On the left panel we can see that code blocks are split into sections:
 
-![](images/image-13.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-23-scratch-tutorial-for-complete-beginners-part2/images/image-13.png)
 
 In the **motion** section we will find lots of block that can easily help moving our character.
 
 Here are some example you should try to use now. Drag the following block into the coding area and change some of their values. Click on the block to see how it effects the character.
 
-![](images/image-14.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-23-scratch-tutorial-for-complete-beginners-part2/images/image-14.png)
 
 - Set x to 40: changes the x value to 40
 - set y to -20: changes the y value to -20
@@ -138,21 +138,21 @@ That's where variables are useful. We can create a new variable, define what val
 
 To create a new variable scroll all the way to the bottom of the code block to the **Variables** section:
 
-![](images/image-15.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-23-scratch-tutorial-for-complete-beginners-part2/images/image-15.png)
 
 Now select **Make a Variable**, and create a new variable with the name Score and press OK (keep "For all sprites" selected).
 
-![](images/image-16.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-23-scratch-tutorial-for-complete-beginners-part2/images/image-16.png)
 
 We can now see that we have a new Score variable in our code block and that it is displayed in the play area.
 
-![](images/image-17.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-23-scratch-tutorial-for-complete-beginners-part2/images/image-17.png)
 
-![](images/image-18.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-23-scratch-tutorial-for-complete-beginners-part2/images/image-18.png)
 
 Now we can change the value of our score variable using the following code blocks:
 
-![](images/image-19.png)
+![](../../../../../../../static/from-blog/2022/01/2022-01-23-scratch-tutorial-for-complete-beginners-part2/images/image-19.png)
 
 - Set score to 0: changes the score variable to 0
 - change score by 1: adds 1 to the score variable
