@@ -12,24 +12,15 @@
         </div>
 
         <div class="row">
-          <post-card
-            link="https://www.moneylab.co/profitable-niche/"
-            title="Discover a Profitable Niche In Under 5 Minutes (Without Research)"
-            image="https://www.moneylab.co/wp-content/uploads/Profitable-Niche-No-Border.jpg"
-            description="What's the best way to discover a profitable niche? This 5-step analog method will uncover the perfect niche to start your business around."
-          />
-          <post-card
-            link="https://www.moneylab.co/twenty-two/"
-            title="My 2022 Annual Online Business Review"
-            image="https://www.moneylab.co/wp-content/uploads/2022-Annual-Online-Business-Review.jpg"
-            description="I officially have a million-dollar business. In 2023, I'm dedicating 80% of time to producing free content to grow traffic. Let's pour gas on this fire!"
-          />
-          <post-card
-            link="https://www.moneylab.co/sexy-boring/"
-            title="3 Boring Business Tasks That Bring Sexy Results"
-            image="https://www.moneylab.co/wp-content/uploads/3-Boring-Business-Tasks-That-Bring-Sexy-Results.png"
-            description="I promise these tasks will save your business from ever failing. And help add more revenue to your bottom line."
-          />
+          <PostCard
+            v-for="(post, index) in $page.allPost.edges.slice(0,3)"
+            :key="index"
+            :title="post.node.title"
+            :image="'https://thinkcodeplay.com/wp-content/uploads/2022/02/5-1024x536.png'"
+            :description="post.node.content"
+            :link="post.node.path"
+          >
+          </PostCard>
         </div>
         <hr />
         <div class="row">

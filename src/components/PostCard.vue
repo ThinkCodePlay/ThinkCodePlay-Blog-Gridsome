@@ -6,7 +6,6 @@
       :to="link"
       class="black font-weight-normal no-underline"
     >
-      {{ image }}
       <g-image :src="image" :alt="title" class="img-fluid rounded border mb-3" />
       <h4>{{ title }}</h4>
       <p class="small">{{ description.slice(0,200) }}</p>
