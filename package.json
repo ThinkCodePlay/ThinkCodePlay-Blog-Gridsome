@@ -2,7 +2,7 @@
   "name": "app",
   "private": true,
   "scripts": {
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && gridsome build",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && gridsome build",
     "dev": "set NODE_OPTIONS=--openssl-legacy-provider && gridsome develop",
     "explore": "gridsome explore"
   },
