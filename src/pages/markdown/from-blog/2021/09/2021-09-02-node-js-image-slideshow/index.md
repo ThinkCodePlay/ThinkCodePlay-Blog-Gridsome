@@ -7,6 +7,7 @@ categories:
 tags: 
   - "ffmpeg"
   - "node-js"
+cover: "../../../../../../../static/from-blog/cover-images/9.png"
 ---
 
 In this tutorial, we will build a Node JS image slideshow app that takes a folder with images and creates a video slideshow from them.

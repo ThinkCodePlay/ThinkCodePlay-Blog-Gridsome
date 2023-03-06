@@ -8,6 +8,7 @@ tags:
   - "github"
   - "primereact"
   - "react"
+cover: "../../../../../../../static/from-blog/cover-images/13.png"  
 ---
 
 In this tutorial we are going to to build a quick and simple to do React to do list app. I will use PrimeReact creating the grid and using its built in styles and functionality.

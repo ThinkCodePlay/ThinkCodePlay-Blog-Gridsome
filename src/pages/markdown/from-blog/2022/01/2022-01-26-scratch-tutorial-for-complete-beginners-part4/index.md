@@ -6,6 +6,7 @@ categories:
   - "tutorial"
 tags: 
   - "scratch"
+cover: "../../../../../../../static/from-blog/cover-images/2.png"
 ---
 
 This is part 4 of the Scratch Tutorial For Complete Beginners. In the [previous chapter](https://thinkcodeplay.com/scratch-tutorial-part-3-the-game-loop/) we learned about loops and how to use them. In this Scratch tutorial We will learn our final piece we need to create some awesome games, If statements and operators! LETS GOOOO!!

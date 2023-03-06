@@ -7,6 +7,7 @@ tags:
   - "jest"
   - "node-js"
   - "testing"
+cover: "../../../../../../../static/from-blog/cover-images/16.png"
 ---
 
 This is part 04 in our MEAN [full stack tutorial](https://thinkcodeplay.com/full-stack-tutorial-wishlist-part-1-node-and-express/). To continue you can [download the zip here.](https://github.com/ThinkCodePlay/cheapsharkAPI/tree/master/zip/Wishlist%20App%20Part%2003)

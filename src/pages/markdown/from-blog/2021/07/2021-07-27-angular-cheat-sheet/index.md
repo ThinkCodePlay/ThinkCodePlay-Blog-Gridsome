@@ -5,6 +5,7 @@ categories:
   - "angular"
 tags: 
   - "angular"
+cover: "../../../../../../../static/from-blog/cover-images/10.png"
 ---
 
 Welcome to my Ultimate Angular Cheat Sheet. I made this Cheat Sheet so that I could use it for a quick refresher on a topic I forgot, or for a quick reference on common uses cases in an Angular App.

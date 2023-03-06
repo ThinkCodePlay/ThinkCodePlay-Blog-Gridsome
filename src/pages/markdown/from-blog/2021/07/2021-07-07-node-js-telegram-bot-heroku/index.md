@@ -8,6 +8,7 @@ tags:
   - "bot"
   - "heroku"
   - "node-js"
+cover: "../../../../../../../static/from-blog/cover-images/11.png"
 ---
 
 Welcome to my Node JS Telegram bot Heroku tutorial.

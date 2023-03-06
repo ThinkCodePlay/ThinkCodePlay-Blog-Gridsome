@@ -6,7 +6,7 @@ categories:
   - "tutorial"
 tags: 
   - "scratch"
-feature: "../../../../../../../static/from-blog/2022/01/2022-01-22-scratch-tutorial-for-complete-beginners/images/image-5-1024x482.png"
+cover: "../../../../../../../static/from-blog/cover-images/5.png"
 ---
 
 ## What Is Scratch?

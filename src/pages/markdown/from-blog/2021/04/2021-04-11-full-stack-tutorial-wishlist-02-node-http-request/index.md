@@ -8,6 +8,7 @@ tags:
   - "express"
   - "javascript"
   - "node-js"
+cover: "../../../../../../../static/from-blog/cover-images/18.png"
 ---
 
 In this tutorial we will learn how to make a Node Http request from Node using Axios library. We will be fetching data from https://www.cheapshark.com and use their API to find the cheapest deal on a game.

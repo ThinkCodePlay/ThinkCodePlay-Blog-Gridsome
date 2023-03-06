@@ -6,6 +6,7 @@ categories:
   - "tutorial"
 tags: 
   - "node-js"
+cover: "../../../../../../../static/from-blog/cover-images/8.png"
 ---
 
 In this tutorial I will show you how I created a Node JS Image Generator.

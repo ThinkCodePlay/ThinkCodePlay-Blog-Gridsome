@@ -6,6 +6,7 @@ categories:
   - "tutorial"
 tags: 
   - "scratch"
+cover: "../../../../../../../static/from-blog/cover-images/3.png"
 ---
 
 This is part 3 of the Scratch Tutorial For Complete Beginners. In this scratch tutorial we will learn about loops and see how they work in code and in our game

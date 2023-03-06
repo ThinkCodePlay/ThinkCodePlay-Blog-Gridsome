@@ -33,7 +33,7 @@
             v-for="(post, index) in $page.allPost.edges"
             :key="index"
             :title="post.node.title"
-            :image="'https://thinkcodeplay.com/wp-content/uploads/2022/02/5-1024x536.png'"
+            :image="post.node.cover"
             :description="post.node.content"
             :link="post.node.path"
           >
@@ -54,6 +54,7 @@ query {
         title
         date
         content
+        cover
       }
     }
   }

@@ -7,6 +7,7 @@ categories:
 tags: 
   - "css"
   - "html"
+cover: "../../../../../../../static/from-blog/cover-images/7.png"
 ---
 
 In this tutorial we will learn about CSS specificity, what is it, why is important, and how it works in our HTML.

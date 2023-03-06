@@ -6,6 +6,7 @@ categories:
 tags: 
   - "bot"
   - "node-js"
+cover: "../../../../../../../static/from-blog/cover-images/12.png"  
 ---
 
 In this tutorial I will show you how to build a Telegram Bot in Node JS

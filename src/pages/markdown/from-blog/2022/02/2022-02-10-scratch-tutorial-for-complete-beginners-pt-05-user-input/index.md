@@ -7,6 +7,7 @@ categories:
 tags: 
   - "scratch"
 preview: "./images/cover.png"
+cover: "../../../../../../../static/from-blog/cover-images/1.png"
 ---
 
 ![image1](../../../../../../../static/from-blog/2022/02/2022-02-10-scratch-tutorial-for-complete-beginners-pt-05-user-input/images/image-1.png)

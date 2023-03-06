@@ -7,6 +7,7 @@ tags:
   - "express"
   - "node-js"
   - "web-api"
+cover: "../../../../../../../static/from-blog/cover-images/19.png"
 ---
 
 In this full stack tutorial series we will learn how to build a full stack app using Node.js, Express and MongoDB as the backend. In this part we will build a Node.js Express app, connect to an API using routes, and receive query strings from the client.

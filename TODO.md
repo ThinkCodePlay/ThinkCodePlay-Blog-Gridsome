@@ -3,7 +3,7 @@
 - [] check all pages and images.
 - [V] make code blocks.
 - [] remove all css. return to basic, and use scoped.
-- [] download all cover images, and set them up
+- [V] download all cover images, and set them up
 - [] pick color pallete and set.
 - [] make popular, latets post.
 - [] make blog page.

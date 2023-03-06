@@ -7,6 +7,7 @@ categories:
 tags: 
   - "css"
   - "html"
+cover: "../../../../../../../static/from-blog/cover-images/6.png"
 ---
 
 In this tutorial, we will learn about the box model, what is it and how it works.

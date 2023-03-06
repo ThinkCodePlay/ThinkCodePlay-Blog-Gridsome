@@ -9,6 +9,7 @@ tags:
   - "c"
   - "interface"
   - "oop"
+cover: "../../../../../../../static/from-blog/cover-images/15.png"  
 ---
 
 In this tutorial we will learn what is an interface in C# is a core concept of object oriented programing. But what is it and why should you use it?
