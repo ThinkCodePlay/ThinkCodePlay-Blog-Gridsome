@@ -6,6 +6,8 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import '~/assets/styles.css'
 
+import 'prismjs/themes/prism-tomorrow.css';
+
 import DefaultLayout from '~/layouts/Default.vue'
 
 

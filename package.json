@@ -2,11 +2,12 @@
   "name": "app",
   "private": true,
   "scripts": {
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && gridsome build",
-    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && gridsome develop",
+    "win:build": "set NODE_OPTIONS=--openssl-legacy-provider && gridsome build",
+    "win:dev": "set NODE_OPTIONS=--openssl-legacy-provider && gridsome develop",
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@gridsome/remark-prismjs": "^0.5.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
     "bootstrap": "^5.2.3",

@@ -14,7 +14,9 @@ module.exports = {
         typeName: 'Post',
         resolveAbsolutePaths: true,
         remark: {
-          // remark options
+          plugins: [
+            '@gridsome/remark-prismjs'
+          ]
         }
       }
     }

@@ -1,7 +1,11 @@
 # TODO checklist
 
-- [ ] Add Articla Page
-- [ ] Query for Articles
-- [ ] Add Article List Page
-- [ ] Add Article Detail Page
-- [ ] Add Article Search Page
+- [] check all pages and images.
+- [V] make code blocks.
+- [] remove all css. return to basic, and use scoped.
+- [] download all cover images, and set them up
+- [] pick color pallete and set.
+- [] make popular, latets post.
+- [] make blog page.
+- [] about page.
+- [] Insert social link icons.
