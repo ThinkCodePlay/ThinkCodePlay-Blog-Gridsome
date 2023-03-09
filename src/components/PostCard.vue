@@ -65,14 +65,23 @@ export default {
   box-shadow: none;
 }
 
-h4 {
+h4, .h4 {
+    font-size: 1.25rem;
+    font-family: 'Poppins', Futura, Trebuchet MS, Arial Black, Arial Bold, Arial, sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+/* h4 {
   font-family: Futura, Trebuchet MS, Arial Black, Arial Bold, Arial, sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0.5rem;
   margin-top: 0;
-}
+} */
 
 .no-underline {
   text-decoration: none!important
