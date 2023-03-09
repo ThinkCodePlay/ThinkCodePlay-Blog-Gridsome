@@ -4,6 +4,8 @@
   "scripts": {
     "win:build": "set NODE_OPTIONS=--openssl-legacy-provider && gridsome build",
     "win:dev": "set NODE_OPTIONS=--openssl-legacy-provider && gridsome develop",
+    "mac:build": "export NODE_OPTIONS=--openssl-legacy-provider && gridsome build",
+    "mac:dev": "export NODE_OPTIONS=--openssl-legacy-provider && gridsome develop",
     "explore": "gridsome explore"
   },
   "dependencies": {
