@@ -9,3 +9,5 @@
 - [] make blog page.
 - [] about page.
 - [] Insert social link icons.
+- [] Move post to posts directory.
+- [] Add description to post.

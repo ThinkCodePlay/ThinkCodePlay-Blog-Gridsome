@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-:root {
+/* :root {
     --futura: Futura, Trebuchet MS, Arial Black, Arial Bold, Arial, sans-serif;
     --helvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
       Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -40,7 +40,7 @@
     padding: 0;
     margin: 0;
   }
-  
+   */
   .post-card {
     position: relative;
     display: -webkit-box;
@@ -80,7 +80,7 @@
   
   h4 {
     font-family: var(--futura);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 0.5rem;
@@ -333,4 +333,9 @@
 article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section {
   display: block;
   margin: 0
+}
+
+:root {
+  --futura: 'Poppins', Futura, Trebuchet MS, Arial Black, Arial Bold, Arial, sans-serif;
+  --helvetica: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
 }
