@@ -1,6 +1,5 @@
 # TODO checklist
 
-- [] check all pages and images.
 - [V] make code blocks.
 - [] remove all css. return to basic, and use scoped.
 - [V] download all cover images, and set them up
@@ -11,3 +10,4 @@
 - [] Insert social link icons.
 - [] Move post to posts directory.
 - [] Add description to post.
+- [] Add h1 and cover to begining of page.

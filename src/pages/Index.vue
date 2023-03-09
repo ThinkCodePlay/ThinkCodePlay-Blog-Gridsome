@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
           <div class="text-md-center">
-            <h2 class="mb-0">Blog Posts</h2>
+            <h2 class="my-4">Blog Posts</h2>
           </div>
         </div>
         <div class="row">
@@ -51,3 +51,4 @@ export default {
   },
 };
 </script>
+

@@ -17,7 +17,7 @@ Let's start with the following example:
 
 In the variables section create a new variable and call it "x steps", selcet the "For this sprite only" option and click ok. This will create a next step variable we can use.
 
-![image27](../../../../../../../static/from-blog/2022/01/2022-01-26-scratch-tutorial-for-complete-beginners-part4/../../../../../../../static/from-blog/2022/01/2022-01-26-scratch-tutorial-for-complete-beginners-part4/images/image-27.png)
+![image27](../../../../../../../static/from-blog/2022/01/2022-01-26-scratch-tutorial-for-complete-beginners-part4/images/image-27.png)
 
 ![image29](../../../../../../../static/from-blog/2022/01/2022-01-26-scratch-tutorial-for-complete-beginners-part4/images/image-29.png)
 
