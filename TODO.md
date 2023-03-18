@@ -10,6 +10,6 @@
 - [] about page.
 - [] fix inner links.
 - [] Insert social link icons.
-- [] Move post to posts directory.
+- [x] Move post to posts directory.
 - [] Add description to post.
 - [x] Add h1 and cover to begining of page.

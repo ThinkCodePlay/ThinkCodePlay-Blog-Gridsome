@@ -21,9 +21,7 @@ module.exports = {
       }
     }
   ],
-  transformers: {
-    remark: {
-      // global remark options
-    }
+  templates: {
+    Post: '/posts/:title',
   }
 }
