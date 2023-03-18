@@ -20,7 +20,7 @@ According to [Microsoft C# documentation:](https://docs.microsoft.com/en-us/dotn
 
 > An interface defines a contract. Any [`class`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/class) or [`struct`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct) that implements that contract must provide an implementation of the members defined in the interface.
 > 
-> https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface
+> <https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface>
 
 In other words, if you need to have a set of functionality to be enforced on a class or struct you can use the interface and implement the functionality in the class.
 

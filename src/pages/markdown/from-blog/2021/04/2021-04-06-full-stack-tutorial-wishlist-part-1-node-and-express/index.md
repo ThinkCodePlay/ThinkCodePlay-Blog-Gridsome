@@ -14,11 +14,11 @@ In this full stack tutorial series we will learn how to build a full stack app u
 
 ## Node app setup
 
-This tutorial is based on a previous post where I showed how to build an express server. [You can read it if you want a full detailed tutorial.](https://thinkcodeplay.com/node-js-express-server-setup/)
+This tutorial is based on a previous post where I showed how to build an express server. [You can read it if you want a full detailed tutorial.](/posts/how-to-build-a-node-js-express-tutorial/)
 
 Lets start up a new node project. Create a folder to build the new app and type in the terminal:
 
-```powershell
+```bash
 npm init -y
 ```
 
@@ -26,7 +26,7 @@ This will setup a blank new app. In the folder create a file **app.js**.
 
 Now install Express framework from npm.
 
-```powershell
+```bash
 npm i express
 ```
 
@@ -122,7 +122,7 @@ To view it in the browser enter the get address [using the query sting format](h
 
 For example
 
-```powershell
+```bash
 http://localhost:3000/get-test?param1=500&param2=600
 ```
 

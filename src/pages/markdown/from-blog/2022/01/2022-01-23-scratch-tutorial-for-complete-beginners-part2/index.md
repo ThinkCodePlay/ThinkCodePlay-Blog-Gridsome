@@ -9,7 +9,7 @@ tags:
 cover: "../../../../../../../static/from-blog/cover-images/4.png"
 ---
 
-This is part 2 of the Scratch Tutorial For Complete Beginners. In [the last tutorial](https://thinkcodeplay.com/game-development-in-scratch-tutorial/) we got to know the scratch environment, and got to know the basics of how to start working with scratch. In this Scratch tutorial we're going to learn about variables and coordinates.
+This is part 2 of the Scratch Tutorial For Complete Beginners. In [the last tutorial](/posts/scratch-tutorial-for-complete-beginners-pt-01/) we got to know the scratch environment, and got to know the basics of how to start working with scratch. In this Scratch tutorial we're going to learn about variables and coordinates.
 
 ## Flow Control
 

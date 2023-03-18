@@ -25,7 +25,7 @@ Complete Source code can be found on my [GitHub repo](https://github.com/ThinkCo
 
 Lets start by initializing a new app and installing our dependencies first:
 
-```powershell
+```bash
 npm init -y
 npm i axios
 npm i express
@@ -168,13 +168,13 @@ To upload our code we will use the Heroku CLI which can be found [here](https://
 
 Once installed you can log into your account from the command line with
 
-```powershell
+```bash
 heroku login
 ```
 
 and then set up the remote server to push to Heroku.
 
-```powershell
+```bash
 cd telegram-express-server
 git init 
 heroku git:remote -a your-app-name
@@ -184,7 +184,7 @@ Change the remote to your app name.
 
 We can now deploy our app to the cloud.
 
-```powershell
+```bash
 git add . 
 git commit -am "first commit" 
 git push heroku master
@@ -196,7 +196,7 @@ In order for our bot to send requests to the server on Heroku we need to set up 
 
 for that we can use the browser to set up the webhook with a get request url:
 
-```powershell
+```bash
 https://api.telegram.org/bot<TELEGRAM_BOT_TOKEN>/setWebhook?url=https://<your-app-name>.herokuapp.com/bot
 ```
 

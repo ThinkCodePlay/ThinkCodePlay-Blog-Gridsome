@@ -13,7 +13,7 @@ This is part 3 of the Scratch Tutorial For Complete Beginners. In this scratch t
 
 ## What are loops?
 
-In [the previous chapter](https://thinkcodeplay.com/scratch-variables-and-coordinates/) we learned about the direction that code goes. We learned that code get executed one after the other going from the top code to the bottom. Once we reach the bottom, the code finishes to run.
+In [the previous chapter](/posts/scratch-tutorial-for-complete-beginners-pt-02-flow-control-variables-and-coordinates/) we learned about the direction that code goes. We learned that code get executed one after the other going from the top code to the bottom. Once we reach the bottom, the code finishes to run.
 
 A loop basically says that instead of going all the way to the bottom we can tell the code to start over again from a starting point.
 

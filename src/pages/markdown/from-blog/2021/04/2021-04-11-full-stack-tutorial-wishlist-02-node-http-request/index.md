@@ -11,11 +11,11 @@ tags:
 cover: "../../../../../../../static/from-blog/cover-images/18.png"
 ---
 
-In this tutorial we will learn how to make a Node Http request from Node using Axios library. We will be fetching data from https://www.cheapshark.com and use their API to find the cheapest deal on a game.
+In this tutorial we will learn how to make a Node Http request from Node using Axios library. We will be fetching data from <https://www.cheapshark.com> and use their API to find the cheapest deal on a game.
 
 ## Server Setup
 
-This tutorial is based on previous tutorial so if you missed it [you can quickly read it here](https://thinkcodeplay.com/how-to-use-routes-in-node-js-and-express/). If you know the basics of Node.js and Express then you can just follow along from here.
+This tutorial is based on previous tutorial so if you missed it [you can quickly read it here](/posts/full-stack-tutorial-wishlist-app-pt-01-node-and-express/). If you know the basics of Node.js and Express then you can just follow along from here.
 
 The current code for **app.js** is a basic server:
 
@@ -32,7 +32,7 @@ app.listen(port, () => {
 
 Next import the Axios library:
 
-```powershell
+```bash
 npm i axios
 ```
 
@@ -40,7 +40,7 @@ Axios is a promise based HTTP library that will do the heavy lifting of sending 
 
 Next Install nodemon as a dev dependency:
 
-```powershell
+```bash
 npm i nodemon --save-dev
 ```
 

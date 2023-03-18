@@ -9,7 +9,7 @@ tags:
 cover: "../../../../../../../static/from-blog/cover-images/14.png"  
 ---
 
-In this full stack tutorial we are going add users to our app and make connections between the games and the user that created them. This is and ongoing [series of tutorials](https://thinkcodeplay.com/full-stack-tutorial-wishlist-part-1-node-and-express/), to follow along you can download the [current state of the code here](https://github.com/ThinkCodePlay/cheapsharkAPI/tree/master/zip/Wishlist%20App%20Part%2004).
+In this full stack tutorial we are going add users to our app and make connections between the games and the user that created them. This is and ongoing [series of tutorials](/posts/full-stack-tutorial-wishlist-app-pt-01-node-and-express/), to follow along you can download the [current state of the code here](https://github.com/ThinkCodePlay/cheapsharkAPI/tree/master/zip/Wishlist%20App%20Part%2004).
 
 ## Users Model
 
@@ -17,7 +17,7 @@ Lets start by installing all the dependancys we will be using for authenticaion.
 
 we will be using [Validator.js](https://www.npmjs.com/package/validator) for validating user input, [bcrypt.js](https://www.npmjs.com/package/bcryptjs) for encrypting user passwords and [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) for creating JWT to authenticate users.
 
-```powershell
+```bash
 npm i jsonwebtoken
 npm i bcryptjs
 npm i validator
@@ -26,7 +26,6 @@ npm i validator
 Next create the model our users. In the models folder create a file **user.js**. and type in the following code:
 
 ```javascript
-
 const mongoose = require('mongoose')
 const validator = require('validator')
 const bcrypt = require('bcryptjs')
@@ -119,7 +118,7 @@ userSchema.statics.findByCredentials = async (email, password) => {
 };
 ```
 
-## Generating JWTs.
+## Generating JWTs
 
 In order to authenticate a user we will create a JSON Web Token or JWT. JWTs are credentials, which can grant access to resources. JWTs have a a structure where the first part represents the Header, middle that represents the payload, and ending that represents the verify signature. For more on this check out [jwt.io](https://jwt.io/).
 
@@ -199,7 +198,7 @@ module.exports = router
 
 This will create a user and add it to the db. Then it will send back a cookie to the client with the JWT.
 
-Test it out adding and logging in using Postman by sending a post request to http://localhost:3000/users with JSON raw data
+Test it out adding and logging in using Postman by sending a post request to <http://localhost:3000/users> with JSON raw data
 
 ```json
 {

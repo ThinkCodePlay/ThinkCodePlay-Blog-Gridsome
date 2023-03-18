@@ -10,7 +10,7 @@ tags:
 cover: "../../../../../../../static/from-blog/cover-images/16.png"
 ---
 
-This is part 04 in our MEAN [full stack tutorial](https://thinkcodeplay.com/full-stack-tutorial-wishlist-part-1-node-and-express/). To continue you can [download the zip here.](https://github.com/ThinkCodePlay/cheapsharkAPI/tree/master/zip/Wishlist%20App%20Part%2003)
+This is part 04 in our MEAN [full stack tutorial](/posts/full-stack-tutorial-wishlist-app-pt-01-node-and-express/). To continue you can [download the zip here.](https://github.com/ThinkCodePlay/cheapsharkAPI/tree/master/zip/Wishlist%20App%20Part%2003)
 
 In this tutorial we will add tests to our backend using Jest framework in Node.js.
 
@@ -18,7 +18,7 @@ In this tutorial we will add tests to our backend using Jest framework in Node.j
 
 First let's install Jest as a dev dependency-
 
-```powershell
+```bash
 npm i jest --save-dev
 ```
 
@@ -233,7 +233,7 @@ The async function runs the function listOfGames with the title of the Game obje
 
 To start running the tests run in the command line
 
-```powershell
+```bash
 npm run test
 ```
 

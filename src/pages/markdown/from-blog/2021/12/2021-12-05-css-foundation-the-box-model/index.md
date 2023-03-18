@@ -51,8 +51,8 @@ The **padding area** is outside the content area and it gives space between the
 - [`padding-top`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-top)
 - [`padding-right`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right), 
 - [`padding-bottom`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-bottom),
--  [`padding-left`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-left)
--  [`padding`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) shorthand properties.
+- [`padding-left`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-left)
+- [`padding`](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) shorthand properties.
 
 ### Border
 
@@ -60,8 +60,8 @@ The **border area** is an area to display the border of the content (+padding) 
 
 You can determine its size and thickness using the following CSS properties:
 
--  [`border-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-width)
--  [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width),
+- [`border-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/border-width)
+- [`width`](https://developer.mozilla.org/en-US/docs/Web/CSS/width),
 - [`min-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/min-width)
 - [`max-width`](https://developer.mozilla.org/en-US/docs/Web/CSS/max-width)
 - [`height`](https://developer.mozilla.org/en-US/docs/Web/CSS/height)

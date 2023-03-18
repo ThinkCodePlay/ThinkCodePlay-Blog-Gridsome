@@ -10,7 +10,7 @@ preview: "./images/cover.png"
 cover: "../../../../../../../static/from-blog/cover-images/1.png"
 ---
 
-In this Scratch Tutorial For Complete Beginners we will learn about how to take user input to move our character. This will be based on our [previous example](https://thinkcodeplay.com/scratch-tutorial-for-complete-beginners-part4/) where we learned about operators and if statements so be sure to check it out if you missed it.
+In this Scratch Tutorial For Complete Beginners we will learn about how to take user input to move our character. This will be based on our [previous example](/posts/scratch-tutorial-for-complete-beginners-pt-04-if-else-and-operators/) where we learned about operators and if statements so be sure to check it out if you missed it.
 
 ## What is user input?
 

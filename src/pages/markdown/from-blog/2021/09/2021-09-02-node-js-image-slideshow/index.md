@@ -18,13 +18,13 @@ For this app, we will need a few NPM packages installed.
 
 First, create a new node app:
 
-```
+```bash
 npm init -y
 ```
 
 Now install the packages we will need:
 
-```
+```bash
 npm i videoshow
 npm i @ffmpeg-installer/ffmpeg
 npm i @ffprobe-installer/ffprobe

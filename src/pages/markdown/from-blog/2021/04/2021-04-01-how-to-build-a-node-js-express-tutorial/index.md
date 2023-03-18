@@ -12,21 +12,21 @@ cover: "../../../../../../../static/from-blog/cover-images/20.png"
 
 In this tutorial we will learn how to build a Node js Express tutorial
 
-## Contents:
+## Contents
 
 - Prerequisites
-- Server setu[p](https://kravitzy.wixsite.com/codecraft/#viewer-fo578)
+- Server setup
 - Express setup
 
-## Prerequisites:
+## Prerequisites
 
 Lets start by installing the environments first.
 
-### IDE:
+### IDE
 
 The first place to begin is by setting up the coding environment. An **IDE** (integrated development environment) is needed for this. I will be using VScode (Visual Studio Code). To download it go to their site: [https://code.visualstudio.com/download](https://code.visualstudio.com/download) and download the correct program according to your operating system.
 
-### Node.js:
+### Node.js
 
 Next install Node.js. To get Node head over to: [https://nodejs.org/en/download](https://nodejs.org/en/download/) and download the LTS version. Make sure to install correctly it before continuing to the next step. To see if Node was installed correctly open up a command prompt by opening the windows key (on windows) and type: "cmd" and open the command prompt and type:
 

@@ -12,7 +12,7 @@ cover: "../../../../../../../static/from-blog/cover-images/17.png"
 
 In this full stack tutorial we will learn how to use MongoDB and Mongoose in our Node.js app.
 
-This is a continuation of the previous post so if you can [read what you missed in this post](https://thinkcodeplay.com/express-fetch-api/), or [download the zip](https://github.com/ThinkCodePlay/cheapsharkAPI/tree/master/zip/Wishlist%20App%20Part%2002) and continue from here.
+This is a continuation of the previous post so if you can [read what you missed in this post](/posts/full-stack-tutorial-wishlist-02-node-http-request/), or [download the zip](https://github.com/ThinkCodePlay/cheapsharkAPI/tree/master/zip/Wishlist%20App%20Part%2002) and continue from here.
 
 ## Download MongoDB server
 
@@ -20,7 +20,7 @@ To start we need a server to host our MongoDB database. Download the community e
 
 To run the server you need to run the command in a terminal (In my case the folders are stored in C:/Documents)
 
-```powershell
+```bash
 C:/Documents/mongodb/bin/mongod.exe --dbpath=C:/Documents/mongodb-data"
 ```
 
@@ -36,7 +36,7 @@ To help with running this next time I will create a script in our **package.json
 
 Next time you want to run the server you can run:
 
-```powershell
+```bash
 npm run mongo
 ```
 
@@ -48,7 +48,7 @@ Mongoose is a JavaScript library that will help us greatly when interacting with
 
 To add the library enter:
 
-```powershell
+```bash
 npm i mongoose
 ```
 
@@ -93,7 +93,7 @@ Last thing to add is a package that will use our env file.
 
 Run in the terminal:
 
-```powershell
+```bash
 npm i env-cmd --save-dev 
 ```
 

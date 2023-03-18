@@ -26,13 +26,13 @@ You can see the live example on on my [GitHub pages](https://thinkcodeplay.githu
 
 Lets start with building the app with npm
 
-```powershell
+```bash
 npx create-react-app to-do-list
 ```
 
 We will be using some npm modules so lets start with installing them
 
-```powershell
+```bash
 npm install primereact --save
 npm install primeicons --save
 npm install react-transition-group
@@ -382,13 +382,13 @@ and two new scripts:
 
 After creating a repository on GitHub hook up the local git with the remote repo on GitHub:
 
-```powershell
+```bash
 git remote add origin https://github.com/<Your Account Name>/<You Repo Name>.git
 ```
 
 And finally deploy the app
 
-```powershell
+```bash
 npm run deploy
 ```
 
