@@ -8,7 +8,7 @@
 - [] make popular, latets post.
 - [] make blog page.
 - [] about page.
-- [] fix inner links.
+- [x] fix inner links.
 - [] Insert social link icons.
 - [x] Move post to posts directory.
 - [] Add description to post.
