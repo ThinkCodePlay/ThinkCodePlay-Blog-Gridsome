@@ -1,11 +1,12 @@
 {
-  "name": "ThinkCodePlay",
+  "name": "think-code-play",
   "private": true,
   "scripts": {
     "win:build": "set NODE_OPTIONS=--openssl-legacy-provider && gridsome build",
     "win:dev": "set NODE_OPTIONS=--openssl-legacy-provider && gridsome develop",
     "mac:build": "export NODE_OPTIONS=--openssl-legacy-provider && gridsome build",
     "mac:dev": "export NODE_OPTIONS=--openssl-legacy-provider && gridsome develop",
+    "dev": "gridsome develop",
     "explore": "gridsome explore"
   },
   "dependencies": {
@@ -16,5 +17,10 @@
     "bootstrap-vue": "^2.23.1",
     "gridsome": "^0.7.0",
     "vue": "^2.7.14"
+  },
+  "overrides": {
+    "gridsome": {
+      "sharp": "0.29.3"
+    }
   }
 }
