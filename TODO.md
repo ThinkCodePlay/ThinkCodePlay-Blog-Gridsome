@@ -13,3 +13,4 @@
 - [x] Move post to posts directory.
 - [] Add description to post.
 - [x] Add h1 and cover to begining of page.
+- [] add next page to end of posts
