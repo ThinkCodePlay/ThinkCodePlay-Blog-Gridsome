@@ -41,6 +41,26 @@ and use common tasks such as sitemap generator, SEO, Google Analytics, and data 
 Since I wanted to use md files, gridsome has a [source-filesystem](https://gridsome.org/plugins/@gridsome/source-filesystem) plugin allowing me to use
 md files as a data source that I can query and then display as a blog post page
 
+## How to Migrate from WordPress to Gridsome
+
+### Fetching you content from WordPress
+
+First step before switching over to Gridsome is to make sure we take all the data from our WordPress site.
+In your WordPress dashboard go to the `Tools -> Export` section. Select `All Content` export option and press `Download Export File`.
+This will download an XML file containing all data of the site.
+
+Now that we have our WordPress export file we need to create MarkDown posts out of the data.
+
+Thankfully I found a great tool for this called [wordpress-export-to-markdown](https://www.npmjs.com/package/wordpress-export-to-markdown).
+
+This NPM is super simple, in your command line, using npm run:
+
+```bash
+npx wordpress-export-to-markdown
+```
+
+The wizard will ask you where the file is, and how you want the content to be structured. Once running the script you will
+have all you content including metadata and images in MarkDown file format.
 
 Step 1: Export WordPress data
 
