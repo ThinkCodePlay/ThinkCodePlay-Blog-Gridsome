@@ -24,9 +24,9 @@ I wanted to make a super-fast and lightweight website that all  Vue.js.
 Here are the goals for this project:
 
 * Using Vue.js for the frontend.
-* Using no backend and database.
-* Using MarkDown (.md) files for blog posts.
-* The website should be lightning fast and easy to maintain.
+* Frontend only. No backend and no database.
+* Using MarkDown (.md) files to write blog posts super fast.
+* The website should must be lightning fast and easy to maintain.
 
 
 ## Why Migrate to Gridsome
@@ -35,15 +35,15 @@ Here are the goals for this project:
 static HTML files during the build process. This approach offers several advantages, including faster loading times, 
 improved SEO, and reduced server load.
 
-It also data agnostic letting you bring data from many sources. It includes a huge ecosystem of plugins letting easily import
+It also database agnostic letting you bring data from many sources. It includes a huge ecosystem of plugins letting easily import
 and use common tasks such as sitemap generator, SEO, Google Analytics, and data source import.
 
-Since I wanted to use md files, gridsome has a [source-filesystem](https://gridsome.org/plugins/@gridsome/source-filesystem) plugin allowing me to use
-md files as a data source that I can query and then display as a blog post page
+Since I wanted to use MarkDown files, gridsome has a [source-filesystem](https://gridsome.org/plugins/@gridsome/source-filesystem) plugin, allowing me to use
+md files as a data source that I can then query and display as blog posts.
 
 ## How to Migrate from WordPress to Gridsome
 
-### Fetching you content from WordPress
+### Fetching Content From WordPress
 
 First step before switching over to Gridsome is to make sure we take all the data from our WordPress site.
 In your WordPress dashboard go to the `Tools -> Export` section. Select `All Content` export option and press `Download Export File`.
@@ -62,62 +62,98 @@ npx wordpress-export-to-markdown
 The wizard will ask you where the file is, and how you want the content to be structured. Once running the script you will
 have all you content including metadata and images in MarkDown file format.
 
-Step 1: Export WordPress data
+### Install Gridsome
 
-The first step is to export your WordPress data, including pages, posts, and comments. You can do this by logging in to your WordPress dashboard, clicking on Tools, and then selecting Export. Choose the content you want to export, and then click on the Download Export File button. This will create an XML file that contains all of your WordPress data.
+Now that we have all our files we will install Gridsome and put our post files in there. First we will install the Gridsome cli:
 
-Step 2: Install Gridsome
-
-The next step is to install Gridsome. You can do this by following the installation instructions on the Gridsome website. Once you have installed Gridsome, you can create a new project using the following command:
-
-```
-gridsome create my-gridsome-site
-```
-Step 3: Install Gridsome WordPress Plugin
-
-Gridsome has an official WordPress plugin that allows you to easily import your WordPress data. Install the plugin using the following command:
-
-```
-npm install gridsome-source-wordpress
+```bash
+npm install --global @gridsome/cli
 ```
 
-Step 4: Configure Gridsome
+Once Gridsome cli is installed create a new project:
 
-After installing the WordPress plugin, you need to configure your Gridsome project. Open the gridsome.config.js file in your project directory and add the following code:
-
+```bash
+gridsome create <your-app-name>
 ```
+
+Test everything is working with:
+
+```bash
+gridsome develop
+```
+
+### Install Gridsome  Plugin
+
+To be able to use Markdown files as a data source we need to install the @gridsome/source-filesystem.
+
+To install run:
+
+```bash
+npm install @gridsome/source-filesystem
+```
+
+Next we need to configure the plugin in the gridsome.config file add the following snippet
+
+```js
 module.exports = {
+  siteName: 'ThinkCodePlay',
   plugins: [
     {
-      use: 'gridsome-source-wordpress',
+      use: '@gridsome/source-filesystem',
       options: {
-        baseUrl: 'https://your-wordpress-site.com',
-        typeName: 'WordPress',
-        perPage: 100,
-        concurrent: 10,
-      },
-    },
+        path: 'src/pages/markdown/**/*.md',
+        typeName: 'Post',
+        resolveAbsolutePaths: true,
+      }
+    }
   ],
+  templates: {
+    Post: '/posts/:title',
+  }
 }
 ```
-Make sure to replace the baseUrl with the URL of your WordPress site. You can also adjust the perPage and concurrent options to match your needs.
 
-Step 5: Build your site
+### Adding Markdown Files to Gridsome
 
-After configuring Gridsome, you can start building your site. Run the following command to generate the static site:
+### Querying For Blog Posts
 
+### Optional - Adding Code Blocks in post
+
+If you have code snippets in your Markdown files, you can add a plugin to display syntax highlighing using @gridsome/remark-prismjs plugin.
+
+To install run:
+
+```bash
+npm install @gridsome/remark-prismjs
 ```
-gridsome build
+
+Then adjust the gridsome.config file:
+
+```js
+module.exports = {
+  siteName: 'ThinkCodePlay',
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'src/pages/markdown/**/*.md',
+        typeName: 'Post',
+        resolveAbsolutePaths: true,
+        remark: {
+          plugins: [
+            '@gridsome/remark-prismjs'
+          ]
+        }
+      }
+    }
+  ],
+  templates: {
+    Post: '/posts/:title',
+  }
+}
 ```
 
-This will create a dist directory containing your static site.
 
-Step 6: Deploy your site
-
-Finally, you need to deploy your site to a web server. There are many options for deploying a static site, including using services like Netlify or GitHub Pages. You can also deploy your site to a traditional web server by simply uploading the files in the dist directory to your server.
-
-Conclusion
+## Conclusion
 
 Converting a WordPress site to Gridsome is a relatively straightforward process. By following the steps outlined in this blog post, you can quickly and easily create a fast, lightweight, and modern static site using Gridsome. With the help of the official WordPress plugin, you can easily import your WordPress data and start building your new site in no time.
-
-https://www.npmjs.com/package/wordpress-export-to-markdown
