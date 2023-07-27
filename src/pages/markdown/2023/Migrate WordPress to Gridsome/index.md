@@ -127,6 +127,18 @@ To install run:
 npm install @gridsome/remark-prismjs
 ```
 
+In the main.js file import a theme:
+
+```js
+import 'prismjs/themes/prism-tomorrow.css';
+
+export default function (Vue) {
+  // ...
+}
+```
+
+(You can try some of the other prismjs themes [here](https://prismjs.com/) )
+
 Then adjust the gridsome.config file:
 
 ```js
