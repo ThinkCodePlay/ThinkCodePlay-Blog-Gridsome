@@ -115,11 +115,174 @@ module.exports = {
 
 ### Adding Markdown Files to Gridsome
 
+Now that our project is set up, we can now work on adding our markdown files and displaying them.
+
+I added under the pages a markdown folder and in it are all my markdown files.
+
+![directory structure](directory%20structure.png)
+
+The images I placed in the static folder with the same folder structure:
+
+![image structure](image%20structure.png)
+
+Now we can query our markdown files and display them.
+
 ### Querying For Blog Posts
+
+To query all posts,  under `pages -> index.vue` I query for all post using the built in `<page-query>` tag 
+and display them using `v-for` in a PostCard component I built:
+
+```vue
+<template>
+  <Layout>
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="text-md-center">
+            <h2 class="my-4">Blog Posts</h2>
+          </div>
+        </div>
+        <div class="row">
+          <PostCard
+              v-for="(post, index) in $page.allPost.edges"
+              :key="index"
+              :title="post.node.title"
+              :image="post.node.cover"
+              :description="post.node.content"
+              :link="post.node.path"
+          >
+          </PostCard>
+        </div>
+      </div>
+    </section>
+  </Layout>
+</template>
+
+<!-- get all posts from query -->
+<page-query>
+query {
+  allPost {
+    edges {
+      node {
+        path
+        title
+        date
+        content
+        cover
+      }
+    }
+  } 
+}
+</page-query>
+
+<script>
+import PostCard from "../components/PostCard.vue";
+export default {
+  components: {
+    PostCard,
+  },
+  metaInfo: {
+    title: "Think Code Play",
+  },
+};
+</script>
+```
+
+The Post Card is places under `components` folder, the component looks like this (see entire component in the GitHub repository):
+
+```vue
+<template>
+  <div class="col-md-4 post-card">
+    <g-link
+      :title="title"
+      :to="link"
+      class="black font-weight-normal no-underline"
+    >
+      <g-image
+        :src="image"
+        :alt="title"
+        class="img-fluid rounded border mb-3"
+      />
+      <h4>{{ title }}</h4>
+    </g-link>
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    link: {
+      type: String,
+      required: true,
+    },
+    title: {
+      type: String,
+      required: true,
+    },
+    image: {
+      type: String,
+      required: true,
+    },
+    description: {
+      type: String,
+      required: true,
+    },
+  },
+};
+</script>
+```
+
+The link is received from the query, and it will open a `Post templates` vue page, this was configured in the `gridsome.config` file.
+This file will display the Post page, and the markdown file as html
+
+Here is how the `Post.vue` file looks like:
+
+```vue
+<template>
+  <Layout>
+    <section class="py-5">
+      <div class="container">
+        <h1 style="text-align: center">{{$page.post.title}}</h1>
+        <g-image
+          :src="$page.post.cover"
+          :alt="$page.post.title"
+          class="img-fluid rounded border mb-5"
+        />
+        <div class="markdown" v-html="$page.post.content"></div>
+      </div>
+    </section>
+  </Layout>
+</template>
+
+<page-query>
+query Post ($path: String){
+ post: post(path: $path) {
+   date
+   content
+   title
+   cover
+ }
+}
+</page-query>
+
+<script>
+export default {
+  name: "Post",
+  metaInfo() {
+    return {
+      title: this.$page.post.title,
+    };
+  },
+};
+</script>
+```
+
+And the is the setup for adding markdown files, querying for them, and displaying them as html pages.
+
 
 ### Optional - Adding Code Blocks in post
 
-If you have code snippets in your Markdown files, you can add a plugin to display syntax highlighing using @gridsome/remark-prismjs plugin.
+If you have code snippets in your Markdown files, you can add a plugin to display syntax highlighting using @gridsome/remark-prismjs plugin.
 
 To install run:
 
