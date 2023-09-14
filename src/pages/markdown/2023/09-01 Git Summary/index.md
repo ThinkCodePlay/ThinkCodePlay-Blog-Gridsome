@@ -69,3 +69,27 @@ git checkout -b <branch-name>
 ```
 
 
+### git switch
+Since version 2.23, Git introduced a new command git switch to switch between branches. The git switch command is similar to git checkout, but it only works with branches.
+```bash
+git switch <branch-name>
+```
+
+To create a new branch and switch to it at the same time:
+```bash
+git switch -c <branch-name>
+```
+
+## Branches and Merging
+
+### git merge
+The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+```bash
+git merge <branch-name>
+````
+
+### git head
+The git HEAD command is a pointer that holds the position of the latest commit in the current branch. you can see the current head by using `git log` command. 
+
+When checkout out a specific commit using `git checkout <commit-hash>` command, the HEAD pointer will be in a detached head state. 
+
