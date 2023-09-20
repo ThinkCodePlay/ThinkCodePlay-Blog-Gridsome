@@ -35,6 +35,12 @@ To add all files in the current directory:
 git add .
 ```
 
+When removing a file you can also use the git add command. alternatively, you can use the git rm command.
+```bash
+gir rm <file>
+```
+
+
 ### git commit
 The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to. Prior to the execution of git commit, The git add command is used to promote or 'stage' changes to the project that will be stored in a commit. However, git add alone will not record changes to the project history. git commit is the command used to save staged changes to the local repository. This command takes a snapshot of the staging area and commits it to the project history.
 ```bash
@@ -46,6 +52,12 @@ The git log command displays committed snapshots. It lets you list the project h
 ```bash
 git log
 ```
+
+### git ls-files
+The git ls-files command lists the files in the current state of the 
+```bash
+git ls-files
+``` 
 
 ### git branch
 The git branch command lets you create, list, rename, and delete branches. It doesn't let you switch between branches or put a forked history back together again. For this reason, git branch is tightly integrated with the git checkout and git merge commands.
@@ -80,6 +92,10 @@ To create a new branch and switch to it at the same time:
 git switch -c <branch-name>
 ```
 
+
+ when deleting a file you can also use the git add command. a
+
+
 ## Branches and Merging
 
 ### git merge
@@ -92,4 +108,45 @@ git merge <branch-name>
 The git HEAD command is a pointer that holds the position of the latest commit in the current branch. you can see the current head by using `git log` command. 
 
 When checkout out a specific commit using `git checkout <commit-hash>` command, the HEAD pointer will be in a detached head state. 
+
+## Undoing Changes
+
+### Undoing unstaged changes
+
+When changing a file the is still unstaged you can use the `git checkout` command to undo the changes.
+```bash
+git checkout <file>
+```
+
+To restore all changes to the last commit:
+```bash
+git checkout .
+```
+
+A better way to do this in moder git is to use restore
+
+```bash
+git restore <file>
+```
+
+```bash
+git restore .
+```
+
+## git clean
+To remove a new file that is untracked:
+
+-d will delete directories and files.
+
+-f will force the deletion without confirmation.
+
+adding n after the parameters will cause to list before deleting. Run this before running the command without the n parameter to see what files will be removed.
+
+```bash
+git clean -dn
+```
+
+```bash
+git clean -f
+```
 
