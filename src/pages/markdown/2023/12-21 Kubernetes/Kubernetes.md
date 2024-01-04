@@ -6,7 +6,7 @@ categories:
 tags: 
   - "docker"
   - "kubernetes"
-cover: "../../../../../../../static/from-blog/cover-images/1.png"
+cover: "/static/from-blog/cover-images/KubernetesCover.png"
 ---
 
 # Kubernetes Summary

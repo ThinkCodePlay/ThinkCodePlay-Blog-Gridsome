@@ -7,7 +7,7 @@ tags:
   - "express"
   - "javascript"
   - "node-js"
-cover: "../../../../../../../static/from-blog/cover-images/20.png"
+cover: "/static/from-blog/cover-images/20.png"
 ---
 
 In this tutorial we will learn how to build a Node js Express tutorial

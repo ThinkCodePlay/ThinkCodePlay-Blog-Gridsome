@@ -7,7 +7,7 @@ tags:
   - "express"
   - "javascript"
   - "node-js"
-cover: "../../../../../../../static/from-blog/cover-images/17.png"
+cover: "/static/from-blog/cover-images/17.png"
 ---
 
 In this full stack tutorial we will learn how to use MongoDB and Mongoose in our Node.js app.

@@ -8,7 +8,7 @@ tags:
   - "bot"
   - "heroku"
   - "node-js"
-cover: "../../../../../../../static/from-blog/cover-images/11.png"
+cover: "/static/from-blog/cover-images/11.png"
 ---
 
 Welcome to my Node JS Telegram bot Heroku tutorial.
@@ -158,11 +158,11 @@ function sendText(res, chat_id, text) {
 
 Heroku is a cloud platform that we can upload out node.js app to. It has a free tier that we can use to try out app. First create a user on heroku.com. Once you are done with signup we will create a new app:
 
-![](../../../../../../../static/from-blog/2021/07/2021-07-07-node-js-telegram-bot-heroku/images/image.png)
+![](/static/from-blog/2021/07/2021-07-07-node-js-telegram-bot-heroku/images/image.png)
 
 Then insert an app name:
 
-![](../../../../../../../static/from-blog/2021/07/2021-07-07-node-js-telegram-bot-heroku/images/image-4.png)
+![](/static/from-blog/2021/07/2021-07-07-node-js-telegram-bot-heroku/images/image-4.png)
 
 To upload our code we will use the Heroku CLI which can be found [here](https://devcenter.heroku.com/articles/heroku-cli).
 
@@ -216,7 +216,7 @@ Time to test your app:
 
 enter 'game' followd by the game title you are searching for:
 
-![](../../../../../../../static/from-blog/2021/07/2021-07-07-node-js-telegram-bot-heroku/images/image-3.png)
+![](/static/from-blog/2021/07/2021-07-07-node-js-telegram-bot-heroku/images/image-3.png)
 
 Congratulations! You now created your bot and it is served correctly on a remote server.
 

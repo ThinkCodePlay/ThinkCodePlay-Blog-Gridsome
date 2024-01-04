@@ -3,14 +3,14 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="logo-container text-md-center py-2">
-          <g-link href="/" title="Think Code Play">
+          <g-link to="/" title="Think Code Play">
             <g-image
               src="../../static/from-blog/assets/Think-code-play-logo-dark.png"
               class="img-fluid"
               width="60"
             />
           </g-link>
-          <g-link class="website-text">Think Code Play</g-link>
+          <g-link to="/" class="website-text">Think Code Play</g-link>
         </div>
       </div>
     </div>

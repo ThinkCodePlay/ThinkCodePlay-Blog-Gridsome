@@ -7,7 +7,7 @@ categories:
 tags: 
   - "css"
   - "html"
-cover: "../../../../../../../static/from-blog/cover-images/6.png"
+cover: "/static/from-blog/cover-images/6.png"
 ---
 
 In this tutorial, we will learn about the box model, what is it and how it works.
@@ -20,7 +20,7 @@ Every element in the HTML document has properties that define its size and posit
 
 An HTML element is built from 4 key components: Content, Padding, Border, and Margin. Below is an image of the box model structure.
 
-![Structure of the box model](../../../../../../../static/from-blog/2021/12/2021-12-05-css-foundation-the-box-model/images/image-6.png)
+![Structure of the box model](/static/from-blog/2021/12/2021-12-05-css-foundation-the-box-model/images/image-6.png)
 
 Structure of the box model
 

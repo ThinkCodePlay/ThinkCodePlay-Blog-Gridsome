@@ -6,7 +6,7 @@ categories:
 tags: 
   - "jwt"
   - "node-js"
-cover: "../../../../../../../static/from-blog/cover-images/14.png"  
+cover: "/static/from-blog/cover-images/14.png"  
 ---
 
 In this full stack tutorial we are going add users to our app and make connections between the games and the user that created them. This is and ongoing [series of tutorials](/posts/full-stack-tutorial-wishlist-app-pt-01-node-and-express/), to follow along you can download the [current state of the code here](https://github.com/ThinkCodePlay/cheapsharkAPI/tree/master/zip/Wishlist%20App%20Part%2004).

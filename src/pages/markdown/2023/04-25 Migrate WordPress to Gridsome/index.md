@@ -6,7 +6,8 @@ categories:
 tags: 
   - "wordpress"
   - "gridsome"
-cover: "../../../../../../../static/from-blog/cover-images/1.png"
+cover: "/static/from-blog/cover-images/WordPressToGridsomeCover.png"
+
 ---
 
 # Migrating WordPress Site to Gridsome
