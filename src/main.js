@@ -15,4 +15,12 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.use(BootstrapVue);
   Vue.component('Layout', DefaultLayout);
+
+    // Add Vercel Analytics script to head
+    head.script.push({
+      src: '/_vercel/insights/script.js',
+      async: true,
+      defer: true,
+      'data-strategy': 'lazyOnload'
+    });
 }
