@@ -2,15 +2,15 @@
   <header class="header black-bg no-underline py-3">
     <div class="container">
       <div class="row align-items-center">
-        <div class="text-md-center py-2">
+        <div class="logo-container text-md-center py-2">
           <g-link href="/" title="Think Code Play">
             <g-image
-              src="../../static/from-blog/assets/cropped-cover-2-294x40.png"
+              src="../../static/from-blog/assets/Think-code-play-logo-dark.png"
               class="img-fluid"
-              width="294"
-              height="40"
+              width="60"
             />
           </g-link>
+          <g-link class="website-text">Think Code Play</g-link>
         </div>
       </div>
     </div>
@@ -24,6 +24,17 @@
   --futura: Futura, Trebuchet MS, Arial Black, Arial Bold, Arial, sans-serif;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-text {
+  color: #ffffff;
+  margin-left: 10px;
+  text-decoration: none;
+}
 .black-bg {
   background-color: #393e42 !important;
 }

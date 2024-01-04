@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes Summary"" 
+title: "Kubernetes Summary"
 date: "2023-12-12"
 categories:
   - "tutorial"
